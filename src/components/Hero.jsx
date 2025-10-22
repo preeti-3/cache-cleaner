@@ -1,4 +1,5 @@
 import { CheckCircle, Download, ExternalLink, Terminal } from 'lucide-react';
+import Image from 'next/image';
 
 
 const Hero = () => {
@@ -46,59 +47,8 @@ const Hero = () => {
                 </div>
 
                 {/* VS Code Preview */}
-                <div className="bg-[#1e1e1e] border border-[#3e3e42] rounded-lg overflow-hidden shadow-2xl">
-                    {/* VS Code Title Bar */}
-                    <div className="bg-[#2d2d30] px-4 py-2 flex items-center justify-between border-b border-[#3e3e42]">
-                        <div className="flex items-center gap-3">
-                            <div className="flex gap-2">
-                                <div className="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
-                                <div className="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
-                                <div className="w-3 h-3 rounded-full bg-[#27c93f]"></div>
-                            </div>
-                            <span className="text-xs sm:text-sm text-gray-400">index.php — Drupal Project</span>
-                        </div>
-                    </div>
-
-                    {/* VS Code Editor Area */}
-                    <div className="bg-[#1e1e1e] p-4 sm:p-6 font-mono text-xs sm:text-sm">
-                        <div className="space-y-2 mb-6">
-                            <div className="text-gray-500">1  <span className="text-[#569cd6]">{'<?php'}</span></div>
-                            <div className="text-gray-500">2</div>
-                            <div className="text-gray-500">3  <span className="text-[#c586c0]">use</span> <span className="text-[#4ec9b0]">Drupal\Core\Cache\Cache</span>;</div>
-                            <div className="text-gray-500">4</div>
-                            <div className="text-gray-500">5  <span className="text-gray-500">// Development code here...</span></div>
-                        </div>
-
-                        {/* Output Panel */}
-                        <div className="bg-[#252526] border border-[#3e3e42] rounded p-3 sm:p-4 mb-4">
-                            <div className="text-xs text-gray-400 mb-2">OUTPUT</div>
-                            <div className="space-y-1 text-xs sm:text-sm">
-                                <div className="text-[#4ec9b0]">✓ Cache rebuild complete</div>
-                                <div className="text-[#4ec9b0]">✓ Configuration cache cleared</div>
-                                <div className="text-[#4ec9b0]">✓ All cache bins emptied</div>
-                                <div className="text-[#3794ff] mt-2">Cache cleared successfully in 1.2s</div>
-                            </div>
-                        </div>
-
-                        {/* Status Bar */}
-                        <div className="bg-[#007acc] text-white px-3 sm:px-4 py-2 rounded flex items-center justify-between text-xs">
-                            <div className="flex items-center gap-3 sm:gap-6">
-                                <span className="hidden sm:inline">Drupal 10.2</span>
-                                <span>UTF-8</span>
-                                <span>PHP</span>
-                            </div>
-                            <div className="flex items-center gap-2 sm:gap-4">
-                                <button className="flex items-center gap-1 sm:gap-2 hover:bg-white/10 px-2 py-1 rounded transition-colors">
-                                    <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4" />
-                                    <span className="hidden sm:inline font-medium">Clear Cache</span>
-                                </button>
-                                <button className="flex items-center gap-1 sm:gap-2 hover:bg-white/10 px-2 py-1 rounded transition-colors">
-                                    <Terminal className="w-3 h-3 sm:w-4 sm:h-4" />
-                                    <span className="hidden sm:inline font-medium">CiviCRM</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                <div className="border border-[#3e3e42] rounded-lg overflow-hidden shadow-2xl">
+                    <Image src="https://raw.githubusercontent.com/vinugawade/ur-cache-cleaner/refs/heads/master/assets/images/feature.gif" alt='vs-code extension gif' unoptimized width={300} height={300} className='w-full' />
                 </div>
             </div>
         </section>
