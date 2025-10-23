@@ -52,7 +52,7 @@ const Installation = () => {
                                         VS Code Marketplace
                                     </a>
                                     <a
-                                        href="https://open-vsx.org/extension/UR-Services/ur-cache-cleaner"
+                                        href="https://open-vsx.org/extension/vinaygawade/ur-cache-cleaner"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-[#3e3e42] hover:bg-[#4e4e52] border border-[#0098ff]/30 rounded transition-colors text-sm sm:text-base"

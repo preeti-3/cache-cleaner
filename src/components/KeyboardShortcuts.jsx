@@ -7,9 +7,7 @@ const KeyboardShortcuts = () => {
     const shortcuts = {
         drupal: [
             { os: "macOS", keys: ["⇧", "⌘", "C", "R"] },
-            { os: "macOS (Alt)", keys: ["⇧", "⌘", "R"] },
-            { os: "Linux", keys: ["Ctrl", "Shift", "C", "R"] },
-            { os: "Linux (Alt)", keys: ["Ctrl", "Shift", "R"] }
+            { os: "Linux", keys: ["Ctrl", "Shift", "C", "R"] }
         ],
         civicrm: [
             { os: "macOS", keys: ["⇧", "⌘", "C", "C"] },
